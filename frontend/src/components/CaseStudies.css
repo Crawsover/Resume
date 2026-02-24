@@ -1,0 +1,124 @@
+.case-studies-section {
+  padding: 100px 48px;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+}
+
+.cases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 16px;
+}
+
+.case {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  padding: 32px;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.case-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #FFD400;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.case:hover {
+  border-color: rgba(255, 212, 0, 0.4);
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 40px rgba(255, 212, 0, 0.15);
+}
+
+.case:hover .case-accent {
+  opacity: 1;
+}
+
+.case-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: #FFD400;
+  margin-bottom: 12px;
+}
+
+.case-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  letter-spacing: 0.04em;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.case-desc {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.case-metrics {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.metric-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  color: #FFD400;
+}
+
+.metric-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: #666;
+}
+
+.case-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.case-skill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: #666;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+
+@media (max-width: 768px) {
+  .case-studies-section {
+    padding: 60px 20px;
+  }
+
+  .cases {
+    grid-template-columns: 1fr;
+  }
+}
