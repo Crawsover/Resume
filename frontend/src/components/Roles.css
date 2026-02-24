@@ -1,0 +1,84 @@
+.roles-section {
+  padding: 100px 48px;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+.roles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.role-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s;
+  cursor: default;
+}
+
+.role-card:hover {
+  border-color: rgba(255, 212, 0, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(255, 212, 0, 0.15);
+}
+
+.role-rank {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.role-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.role-salary {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.win-bar-wrap {
+  height: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+
+.win-bar {
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #FFD400, #FFA500);
+  transition: width 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.win-pct {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #FFD400;
+}
+
+@media (max-width: 768px) {
+  .roles-section {
+    padding: 60px 20px;
+  }
+
+  .roles-grid {
+    grid-template-columns: 1fr;
+  }
+}
