@@ -51,7 +51,7 @@
 }
 
 .nav-links button:hover {
-  color: #FFD400;
+  color: #FFFFFF;
 }
 
 .nav-cta {
@@ -68,8 +68,10 @@
 }
 
 .nav-cta:hover {
-  background: #FFD400;
-  color: #000;
+  background: rgba(255, 212, 0, 0.15);
+  border-color: #FFA500;
+  color: #FFD400;
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
