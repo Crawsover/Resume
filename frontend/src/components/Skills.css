@@ -58,13 +58,13 @@
 }
 
 .cluster:hover {
-  border-color: rgba(255, 212, 0, 0.4);
-  box-shadow: 0 8px 32px rgba(255, 212, 0, 0.1);
+  border-color: rgba(184, 134, 11, 0.4);
+  box-shadow: 0 8px 32px rgba(184, 134, 11, 0.1);
 }
 
 .cluster.open {
-  border-color: #FFD400;
-  box-shadow: 0 8px 32px rgba(255, 212, 0, 0.15);
+  border-color: #B8860B;
+  box-shadow: 0 8px 32px rgba(184, 134, 11, 0.15);
 }
 
 .cluster-header {
