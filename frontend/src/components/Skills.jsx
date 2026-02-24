@@ -35,8 +35,8 @@ const Skills = ({ data }) => {
                   className="cluster-header cursor-hover"
                   onClick={() => toggleCluster(cluster.id)}
                 >
-                  <div className="cluster-icon" style={{ background: 'rgba(255, 212, 0, 0.12)' }}>
-                    {IconComponent && <IconComponent size={24} color="#FFD400" />}
+                  <div className="cluster-icon" style={{ background: 'rgba(184, 134, 11, 0.12)' }}>
+                    {IconComponent && <IconComponent size={24} color="#B8860B" />}
                   </div>
                   <div className="cluster-meta">
                     <div className="cluster-name">{cluster.name}</div>
