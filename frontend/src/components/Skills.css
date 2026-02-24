@@ -127,9 +127,9 @@
 }
 
 .tag-primary {
-  color: #FFD400;
-  border-color: rgba(255, 212, 0, 0.3);
-  background: rgba(255, 212, 0, 0.05);
+  color: #B8860B;
+  border-color: rgba(184, 134, 11, 0.3);
+  background: rgba(184, 134, 11, 0.05);
 }
 
 .tag-secondary {
