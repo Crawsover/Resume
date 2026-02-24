@@ -36,9 +36,9 @@
 }
 
 .case:hover {
-  border-color: rgba(255, 212, 0, 0.4);
+  border-color: rgba(184, 134, 11, 0.4);
   transform: translateY(-4px) !important;
-  box-shadow: 0 12px 40px rgba(255, 212, 0, 0.15);
+  box-shadow: 0 12px 40px rgba(184, 134, 11, 0.15);
 }
 
 .case:hover .case-accent {
