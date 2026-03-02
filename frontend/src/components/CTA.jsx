@@ -28,7 +28,7 @@ const CTA = () => {
           </button>
           <button
             className="btn-outline"
-            onClick={() => window.open('https://www.linkedin.com/in/jeremy-crawford', '_blank')}
+            onClick={() => window.open('https://www.linkedin.com/in/jcrawforduxlab/', '_blank')}
           >
             VIEW LINKEDIN
           </button>
