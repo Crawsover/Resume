@@ -1,10 +1,11 @@
-/* System Builder - Blue Glassmorphism Theme */
+/* System Builder - Yellow/Gold Glassmorphism Theme (Matching Portfolio) */
 
 .system-builder-page {
   min-height: 100vh;
   background: #0a0a0a;
   color: #ffffff;
   font-family: 'Instrument Sans', sans-serif;
+  cursor: none;
 }
 
 /* Glass containers */
@@ -28,7 +29,7 @@
 
 .glass-card:hover {
   background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(0, 102, 255, 0.3);
+  border-color: rgba(255, 212, 0, 0.3);
   transform: translateY(-2px);
 }
 
