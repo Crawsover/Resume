@@ -56,14 +56,14 @@
   animation: fadeUp 0.8s 0.8s ease forwards;
 }
 
-.hero-name {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(72px, 10vw, 140px);
-  line-height: 0.92;
-  letter-spacing: 0.02em;
-  color: #FFFFFF;
+.hero-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #FFD400;
+  margin-bottom: 20px;
   opacity: 0;
-  animation: fadeUp 0.6s 0.35s ease forwards;
+  animation: fadeUp 0.6s 0.2s ease forwards;
 }
 
 .hero-name em {
