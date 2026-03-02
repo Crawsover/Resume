@@ -2,7 +2,7 @@ import React from "react";
 import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// Components
+// Portfolio Components
 import CustomCursor from "./components/CustomCursor";
 import ScrollProgress from "./components/ScrollProgress";
 import Navigation from "./components/Navigation";
@@ -16,6 +16,10 @@ import Footer from "./components/Footer";
 
 // Mock Data
 import { portfolioData } from "./data/mock";
+
+// System Builder Pages
+import SystemBuilder from "./pages/SystemBuilder/SystemBuilder";
+import SystemBuilderSuccess from "./pages/SystemBuilder/SystemBuilderSuccess";
 
 const Portfolio = () => {
   return (
@@ -40,6 +44,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Portfolio />} />
+          <Route path="/system-builder" element={<SystemBuilder />} />
+          <Route path="/system-builder/success" element={<SystemBuilderSuccess />} />
         </Routes>
       </BrowserRouter>
     </div>
