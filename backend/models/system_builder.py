@@ -11,7 +11,7 @@ class WorkflowTemplate(BaseModel):
     category: str
     nodes: List[Dict[str, Any]]
     edges: List[Dict[str, Any]]
-    default_scoring: Dict[str, int]
+    default_scoring: Dict[str, Any]  # Changed from Dict[str, int]
 
 # Draft Models
 class WorkflowDraft(BaseModel):
