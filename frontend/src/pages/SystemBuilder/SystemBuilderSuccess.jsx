@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Check, ExternalLink, ArrowRight } from 'lucide-react';
+import CustomCursor from '../../components/CustomCursor';
 import '../SystemBuilder/SystemBuilder.css';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
@@ -35,6 +36,7 @@ const SystemBuilderSuccess = () => {
   if (loading) {
     return (
       <div className="system-builder-page">
+        <CustomCursor />
         <div className="sb-container" style={{ textAlign: 'center', paddingTop: '200px' }}>
           <div className="stage-title">Loading your setup plan...</div>
         </div>
@@ -44,6 +46,7 @@ const SystemBuilderSuccess = () => {
 
   return (
     <div className="system-builder-page">
+      <CustomCursor />
       {/* Navigation */}
       <nav className="sb-nav">
         <div className="sb-logo">
