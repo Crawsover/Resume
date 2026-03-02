@@ -25,9 +25,7 @@ const Roles = ({ data }) => {
         <div className="roles-grid">
           {data.map((role, index) => (
             <div key={index} className="role-card cursor-hover">
-              <div className="role-rank">RANK {role.rank}</div>
               <div className="role-title">{role.title}</div>
-              <div className="role-salary">{role.salary}</div>
               <div className="win-bar-wrap">
                 <div
                   className="win-bar"
