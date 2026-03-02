@@ -317,6 +317,6 @@ export const portfolioData = {
     { rank: "03", title: "MARKETING OPERATIONS DIRECTOR", salary: "$115K – $150K", fitScore: 85 },
     { rank: "04", title: "REVENUE OPERATIONS DIRECTOR", salary: "$130K – $175K", fitScore: 84 },
     { rank: "05", title: "CUSTOMER SUCCESS DIRECTOR", salary: "$120K – $158K", fitScore: 81 },
-    { rank: "06", title: "AI GTM STRATEGIST", salary: "$135K – $190K", fitScore: 70 }
+    { rank: "06", title: "AI GTM STRATEGIST", salary: "$135K – $190K", fitScore: 91 }
   ]
 };
