@@ -11,7 +11,7 @@ const Footer = () => {
         <a href="https://jcrawfordesigns.com" target="_blank" rel="noopener noreferrer">
           PORTFOLIO
         </a>
-        <a href="https://www.linkedin.com/in/jeremy-crawford" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/jcrawforduxlab/" target="_blank" rel="noopener noreferrer">
           LINKEDIN
         </a>
         <a href="mailto:CrawfordUXlab@gmail.com">
