@@ -57,7 +57,7 @@
 }
 
 .sb-logo span {
-  color: #0066FF;
+  color: #FFD400;
 }
 
 /* Stage Progress */
@@ -76,8 +76,8 @@
 }
 
 .stage-dot.active {
-  background: #0066FF;
-  box-shadow: 0 0 12px rgba(0, 102, 255, 0.6);
+  background: #FFD400;
+  box-shadow: 0 0 12px rgba(255, 212, 0, 0.6);
 }
 
 .stage-dot.completed {
