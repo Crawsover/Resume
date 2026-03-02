@@ -297,8 +297,8 @@
 
 /* Buttons */
 .btn-primary {
-  background: #0066FF;
-  color: #fff;
+  background: #FFD400;
+  color: #000;
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
@@ -311,9 +311,9 @@
 }
 
 .btn-primary:hover {
-  background: #0052cc;
+  background: #FFA500;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 102, 255, 0.3);
+  box-shadow: 0 8px 20px rgba(255, 212, 0, 0.3);
 }
 
 .btn-outline {
@@ -330,8 +330,8 @@
 }
 
 .btn-outline:hover {
-  border-color: #0066FF;
-  background: rgba(0, 102, 255, 0.1);
+  border-color: #FFD400;
+  background: rgba(255, 212, 0, 0.1);
 }
 
 /* Scoring Panel */
