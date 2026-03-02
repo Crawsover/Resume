@@ -28,26 +28,11 @@
   box-shadow: 0 8px 32px rgba(184, 134, 11, 0.15);
 }
 
-.role-rank {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.15em;
-  color: #666;
-  margin-bottom: 8px;
-}
-
 .role-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 20px;
   letter-spacing: 0.04em;
   color: #000;
-  margin-bottom: 4px;
-}
-
-.role-salary {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
-  color: #666;
   margin-bottom: 16px;
 }
 
