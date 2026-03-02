@@ -107,11 +107,11 @@
   gap: 4px;
 }
 
-.stat-label {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.12em;
-  color: #666;
+.stat-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px;
+  color: #FFD400;
+  line-height: 1;
 }
 
 .hero-scroll {
