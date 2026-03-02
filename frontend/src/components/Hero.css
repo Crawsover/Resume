@@ -163,16 +163,42 @@
   }
 }
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .hero-animation {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-section {
     padding: 120px 20px 60px;
   }
 
   .hero-stats {
-    gap: 28px;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .stat-num {
-    font-size: 32px;
+    font-size: 28px;
+  }
+  
+  .hero-animation {
+    display: none;
   }
 }
