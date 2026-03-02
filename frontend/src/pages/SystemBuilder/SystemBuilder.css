@@ -420,7 +420,7 @@
 
 .form-input:focus {
   outline: none;
-  border-color: #0066FF;
+  border-color: #FFD400;
   background: rgba(255, 255, 255, 0.08);
 }
 
