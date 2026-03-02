@@ -131,7 +131,7 @@ export default function DataJourney() {
       if (revText) {
         const counter = { val: 0 };
         gsap.to(counter, {
-          val: 3700000,
+          val: 6300000,
           duration: 3,
           delay: 3.5,
           repeat: -1,
