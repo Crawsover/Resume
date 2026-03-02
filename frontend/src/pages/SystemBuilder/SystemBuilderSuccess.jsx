@@ -64,14 +64,14 @@ const SystemBuilderSuccess = () => {
             width: '80px',
             height: '80px',
             borderRadius: '50%',
-            background: 'rgba(40, 200, 64, 0.1)',
-            border: '2px solid rgba(40, 200, 64, 0.3)',
+            background: 'rgba(255, 212, 0, 0.1)',
+            border: '2px solid rgba(255, 212, 0, 0.3)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             margin: '0 auto 24px'
           }}>
-            <Check size={40} color="#28c840" />
+            <Check size={40} color="#FFD400" />
           </div>
           
           <h1 className="stage-title" style={{ marginBottom: '16px' }}>
