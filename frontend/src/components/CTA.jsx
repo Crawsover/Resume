@@ -1,10 +1,12 @@
 import React, { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useInView } from '../hooks/useParallax';
 import './CTA.css';
 
 const CTA = () => {
   const ref = useRef();
   const isInView = useInView(ref);
+  const navigate = useNavigate();
 
   return (
     <section id="cta" className="cta-section" ref={ref}>
@@ -29,6 +31,12 @@ const CTA = () => {
             onClick={() => window.open('https://www.linkedin.com/in/jeremy-crawford', '_blank')}
           >
             VIEW LINKEDIN
+          </button>
+          <button
+            className="btn-outline"
+            onClick={() => navigate('/system-builder')}
+          >
+            TRY SYSTEM BUILDER
           </button>
         </div>
       </div>
