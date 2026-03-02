@@ -7,7 +7,7 @@ export const portfolioData = {
     nameAccent: "CRAWFORD",
     title: "DIRECTOR · STRATEGIST · OPERATOR · BUILDER",
     stats: [
-      { number: "$3.7M", label: "REVENUE GENERATED" },
+      { number: "$6.3M", label: "REVENUE GENERATED" },
       { number: "105%", label: "REVENUE GROWTH (4.5 MO)" },
       { number: "39%", label: "LTV INCREASE" },
       { number: "23%", label: "CONVERSION LIFT" }
