@@ -5,6 +5,7 @@ import 'reactflow/dist/style.css';
 import { nodeTypes } from './CustomNodes';
 import useSystemBuilderStore from '../../store/systemBuilderStore';
 import { ArrowLeft, ArrowRight, Check } from 'lucide-react';
+import CustomCursor from '../../components/CustomCursor';
 import './SystemBuilder.css';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
@@ -113,6 +114,8 @@ const SystemBuilder = () => {
 
   return (
     <div className="system-builder-page">
+      <CustomCursor />
+      
       {/* Navigation */}
       <nav className="sb-nav">
         <div className="sb-logo">
