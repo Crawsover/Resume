@@ -169,8 +169,8 @@ const SetupStep = ({ number, title, description, action, actionLink, isLast }) =
           width: '32px',
           height: '32px',
           borderRadius: '50%',
-          background: 'rgba(0, 102, 255, 0.1)',
-          border: '1px solid rgba(0, 102, 255, 0.3)',
+          background: 'rgba(255, 212, 0, 0.1)',
+          border: '1px solid rgba(255, 212, 0, 0.3)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -178,7 +178,7 @@ const SetupStep = ({ number, title, description, action, actionLink, isLast }) =
           fontFamily: 'JetBrains Mono, monospace',
           fontSize: '14px',
           fontWeight: '600',
-          color: '#0066FF'
+          color: '#FFD400'
         }}>
           {number}
         </div>
