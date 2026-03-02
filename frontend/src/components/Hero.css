@@ -3,31 +3,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 140px 48px 80px;
   position: relative;
   overflow: hidden;
   background: linear-gradient(to bottom, #000000 0%, #0a0a0a 100%);
 }
 
-.hero-grid {
-  position: absolute;
-  inset: 0;
-  background-image: 
-    linear-gradient(rgba(255, 212, 0, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 212, 0, 0.03) 1px, transparent 1px);
-  background-size: 60px 60px;
-  mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black, transparent);
-}
-
-.hero-glow {
-  position: absolute;
-  top: -200px;
-  right: -200px;
-  width: 700px;
-  height: 700px;
-  background: radial-gradient(circle, rgba(255, 212, 0, 0.08) 0%, transparent 70%);
-  pointer-events: none;
+.hero-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  max-width: 1400px;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-content {
