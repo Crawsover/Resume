@@ -204,7 +204,7 @@ const SetupStep = ({ number, title, description, action, actionLink, isLast }) =
             href={actionLink}
             style={{
               fontSize: '12px',
-              color: '#0066FF',
+              color: '#FFD400',
               textDecoration: 'none',
               display: 'inline-flex',
               alignItems: 'center',
