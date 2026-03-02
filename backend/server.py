@@ -72,6 +72,9 @@ async def get_status_checks():
 # Include the router in the main app
 app.include_router(api_router)
 
+# Include system builder routes
+app.include_router(system_builder_router, prefix="/api")
+
 app.add_middleware(
     CORSMiddleware,
     allow_credentials=True,
