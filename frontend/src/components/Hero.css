@@ -92,10 +92,13 @@
   animation: fadeUp 0.6s 0.5s ease forwards;
 }
 
-.stat {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+.hero-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 48px;
+  margin-top: 56px;
+  opacity: 0;
+  animation: fadeUp 0.6s 0.65s ease forwards;
 }
 
 .stat-num {
