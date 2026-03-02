@@ -17,7 +17,7 @@ const CTA = () => {
           READY TO<em>MOVE?</em>
         </h2>
         <p className="cta-sub">
-          $3.7M in documented revenue across legal, EdTech, and ecommerce. I don't just design experiences — I build the systems that make them generate money.
+          $6.3M in documented revenue across legal, EdTech, and ecommerce. I don't just design experiences — I build the systems that make them generate money.
         </p>
         <div className="cta-btns">
           <button
