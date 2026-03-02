@@ -19,6 +19,7 @@ const SystemBuilderSuccess = () => {
     if (planToken) {
       fetchPlan();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [planToken]);
 
   const fetchPlan = async () => {
